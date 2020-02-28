@@ -1,0 +1,4 @@
+*.pug
+*.scss
+images
+prepros.config
