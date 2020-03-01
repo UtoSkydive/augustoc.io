@@ -2,3 +2,4 @@
 *.scss
 images
 prepros.config
+.vscode
