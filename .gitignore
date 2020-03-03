@@ -1,5 +1,7 @@
 *.pug
 *.scss
-images
 prepros.config
 .vscode
+html
+componentes
+plantilla.html
