@@ -83,7 +83,7 @@ p {
   padding: 4rem;
   width: 100%;
   margin-top: 2em;
-  height: 100vh;
+  height: 110vh;
 }
 .aboutMe__titulo, .contact__titulo, .works__titulo, .skills__titulo, .goals__titulo {
   color: #f79784;
@@ -104,6 +104,32 @@ p {
   margin-top: 30px;
   width: 460px;
   height: 360px;
+}
+.aboutMe__file {
+  background-color: #234969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: all 0.9s;
+}
+.aboutMe__file:hover {
+  background-color: #000;
+  animation-name: btnmove;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  will-change: transform;
+}
+.aboutMe__file a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*---------fin seccion---------*/
